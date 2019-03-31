@@ -1,0 +1,23 @@
+{
+	"BOB": [{
+        "Stars": [{
+                "Name": "Big Bob-omb On the Summit",
+                "Acts": 0,
+                "CapsRequired": [{
+                    "Wing": false,
+                    "Vanish": false,
+                    "Metal": false
+                }]
+            },{
+                "Name" : "Footrace With Koopa the Quick",
+                "Acts": 1,
+                "CapsRequired": [{
+                    "Wing": false,
+                    "Vanish": false,
+                    "Metal": false
+                }]
+            }],
+        "KeyNeeded": 0,
+        "StarsNeeded": 0
+    }]
+}

@@ -1,0 +1,84 @@
+body {
+    background-color: #333333;
+    color: white;
+    font-family: Mario;
+    text-shadow: 2px 2px 5px black;
+}
+
+@font-face {
+    font-family: Mario;
+    src: url(mariofont.otf);
+    font-weight:400;
+}
+
+#container {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.level img, .warps-to img {
+    width: 75px;
+    height: 75px;
+}
+
+.level p, .warps-to p {
+    margin-top: 0px;
+    text-align: center;
+    width: 75px;
+}
+
+.warp {
+    width: 110px;
+    float: left;
+}
+
+.level {
+    float: left;
+    width: 110px;
+}
+
+.door {
+    width: 80px;
+    float: left;
+    margin: 0 20px;
+}
+
+.door img {
+    width: 80px;
+    height: 120px;
+}
+
+.door p {
+    text-align: center;
+    width: 80px;
+}
+
+#warps {
+    float: left;
+    width: 660px;
+}
+
+#doors {
+    float: right;
+    width: 600px;
+}
+
+.star {
+    width: 20px !important; 
+    height: 20px !important;
+    margin-bottom: -5px;
+}
+
+footer {
+    width: 1320px;
+    text-align: center;
+    margin: 0 auto;
+    bottom: 30px;
+    position: absolute;
+    font-size: 18px;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
